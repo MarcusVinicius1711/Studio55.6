@@ -1,0 +1,361 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box;
+}
+body{
+    background-color: black;
+}
+header{
+    display:flex;
+    width: 100%;
+    height: 130px;
+    padding: 15px 40px;
+    justify-content:space-between;
+    align-items: center;
+}
+.logo{
+position: fixed;
+top: 20px;
+width: 200px;
+height: 120px;
+left: 40px;
+display: flex;
+z-index: 1;
+}
+nav ul{
+    display: flex;
+    gap:150px;
+    list-style: none;
+    font-size: 25px;
+    margin-top: 35px;
+    margin-left: 400px;
+    text-decoration: none;
+}
+strong a{
+    color: white
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav ul a:hover{
+    color: #dba93c;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 250px;
+}
+.all{
+    display: flex;
+    background-color: #272121;
+    height: 50px;
+    width: 100%;
+    gap: 200px;
+    align-items: center;
+    padding: 20px;
+}
+.line1{
+    height: 2px;
+    background:#cb9216;
+    margin: 20px 0;
+    margin-top:1px;
+}
+.number4-pai{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 30px;
+    margin-top: -20px;
+    align-items: center;
+    flex-direction: row;
+}
+.number4-7{
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.number4-8{
+     font-size: 20px;
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    border-radius: 10px;
+    border:1px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+.button-pai{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.number4-2{
+    width: 89px;
+    position: relative;
+    left: 4%;
+}
+.number4-3{
+    width: 170px;
+    position: relative;
+    left: 5%;
+}
+.number4-4{
+    width: 135px;
+    position: relative;
+    left: 4%;
+}
+.number4-5{
+    position: relative;
+    left: 6%;
+}
+.number4-6{
+    position: relative;
+    left: 9%;
+}
+.line2{
+    height: 2px;
+    background:#cb9216;
+    margin: 20px 0;
+    margin-top:1px;
+}
+.number2-pai{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 30px;
+    margin-top: -20px;
+    align-items: center;
+    flex-direction: row;
+}
+.number2-7{
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.number2-8{
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    border-radius: 10px;
+    border:1px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+.botao-pai{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.number2-2{
+    width: 138px;
+    position: relative;
+    left: 4%;
+}
+.number2-3{
+    width: 170px;
+    position: relative;
+    left: 3%;
+}
+.number2-4{
+    width: 135px;
+    position: relative;
+    left: 4%;
+}
+.number2-5{
+    position: relative;
+    left: 5%;
+}
+.number2-6{
+    position: relative;
+    left: 8%;
+}
+.line3{
+    height: 2px;
+    background:#cb9216;
+    margin: 20px 0;
+    margin-top:1px;
+}
+.number3-pai{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 30px;
+    margin-top: -20px;
+    align-items: center;
+    flex-direction: row;
+}
+.number3-7{
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.number3-8{
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    border-radius: 10px;
+    border:1px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+.botao-pai-2{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.number3-2{
+    width: 89px;
+    position: relative;
+    left: 4%;
+}
+.number3-3{
+    width: 170px;
+    position: relative;
+    left: 5%;
+}
+.number3-4{
+    width: 143px;
+    position: relative;
+    left: 4%;
+}
+.number3-5{
+    position: relative;
+    left: 6%;
+}
+.number3-6{
+    position: relative;
+    left: 9%;
+}
+@media screen and (max-width: 1024px){ 
+    nav ul{margin-left: 290px;
+        gap:90px;    
+    }
+    .all{
+    gap: 65px;
+}
+.number4-8{
+    width: 80px;
+    height: 50px;
+}
+.number2-8{
+    width:80px;
+    height:50px ;
+}
+.number3-8{
+    width: 80px;
+    height: 50px;
+}
+.number4-pai{
+    font-size: 23px;
+    padding: 12px;
+}
+.number4-4{
+    left: 2px;
+}
+.number4-5{
+    left: -25px;
+}
+.number4-6{
+    left: 10px;
+}
+.number4-8{
+   margin-right: 20px;
+}
+.number2-pai{
+    font-size: 23px;
+    padding: 12px;
+}
+.number2-3{
+    left:15px;
+}
+.number2-4{
+    left: -10px;
+}
+.number2-5{
+    left: -45px;
+}
+.number2-6{
+    left: -2px;
+}
+.number2-8{
+    margin-right: 20px;
+}
+.number3-pai{
+    font-size: 23px;
+    padding: 12px;
+}
+.number3-3{
+    left: 46px;
+}
+.number3-4{
+    left: -3px;
+}
+.number3-5{
+    left: -25px;
+}
+.number3-6{
+    left: 8px;
+}
+.number3-8{
+    margin-right: 20px;
+}
+}
+@media screen and (max-width: 390px) {
+    nav{
+        width: 100%;
+        height: 70px;
+    }
+    header {
+        height: 80px;
+        padding: 5px 10px;
+    }
+
+    header img {
+        height: 70px;
+        margin-top: -20px;
+        margin-left: -30px;
+    }
+    nav ul a{
+        font-size: 10px;
+        margin-left: -100px;
+    }
+    .logo{
+        width: 50px ;
+        height: 50px;
+    }
+
+}
+
+
+
+
+
+
+
+
+    
