@@ -326,32 +326,114 @@ main{
 }
 }
 @media screen and (max-width: 390px) {
-    nav{
-        width: 100%;
-        height: 70px;
-    }
+
     header {
         height: 80px;
         padding: 5px 10px;
-    }
-
-    header img {
-        height: 70px;
-        margin-top: -20px;
-        margin-left: -30px;
-    }
-    nav ul a{
-        font-size: 10px;
-        margin-left: -100px;
     }
     .logo{
         width: 50px ;
         height: 50px;
     }
-
-}
-
-
+    header img {
+        height: 70px;
+        margin-top: -20px;
+        margin-left: -30px;
+    }
+        nav{
+        width: 100%;
+        height: 70px;
+    }
+    nav ul{
+        font-size: 14px;
+        padding: 40px 0 0;
+        margin-left: 10px;
+        gap: 50px;
+        
+    }
+    .all{
+        font-size: 16px;
+        gap: 10px;
+        justify-content: flex-start;
+    }
+   .number4-pai{
+    font-size: 12px;
+   }
+   .number4-2{
+    left: 30px;
+   }
+   .number4-3{
+    left: 30px;
+   }
+   .number4-4{
+    left: 10px;
+   }
+   .number4-5{
+    left: 3px;
+   }
+   .number4-6{
+    left: 20px;
+    margin-right: 30px;
+   }
+       .number4-8{
+        font-size: 10px;
+        width: 50px;
+        height: 40px;
+        display: flex;
+        padding-left: 10px;
+        margin-right: 0px;
+    }
+   .number2-pai{
+    font-size: 12px;
+   }
+   .number2-2{
+    left: 20px;
+   }
+   .number2-3{
+    left:10px ;
+    }
+    .number2-4{
+    left:10px ;
+    }
+    .number2-5{
+    left:4px ;
+    }
+    .number2-6{
+    left:19px ;
+    }
+   .number3-pai{
+    font-size: 12px;
+   }
+   .number3-2{
+    left:30px ;
+   }
+   .number3-3{
+    left: 30px;
+   }
+   .number3-4{
+    left:10px ;
+    }
+    .number3-5{
+    left:5px ;
+    }
+    .number3-6{
+    left:20px ;
+    }
+    .number2-8{
+        font-size: 10px;
+        width: 50px;
+        height: 40px;
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+    .number3-8{
+        font-size: 10px;
+        width: 50px;
+        height: 40px;
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+    }
 
 
 
@@ -359,3 +441,4 @@ main{
 
 
     
+
