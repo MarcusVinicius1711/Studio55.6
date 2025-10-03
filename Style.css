@@ -76,14 +76,6 @@ main{
     align-items: center;
     flex-direction: row;
 }
-.number4-7{
-    font-size: 20px;
-    width: 100px;
-    height: 40px;
-    align-items: center;
-    border-radius: 10px;
-    cursor: pointer;
-}
 .number4-8{
      font-size: 20px;
     width: 100px;
@@ -94,6 +86,7 @@ main{
     background-color: transparent;
     color: white;
     cursor: pointer;
+
 }
 .button-pai{
     display: flex;
@@ -103,25 +96,25 @@ main{
 .number4-2{
     width: 89px;
     position: relative;
-    left: 4%;
+    left: 2%;
 }
 .number4-3{
     width: 170px;
     position: relative;
-    left: 5%;
+    left: 2%;
 }
 .number4-4{
     width: 135px;
     position: relative;
-    left: 4%;
+    left: 1%;
 }
 .number4-5{
     position: relative;
-    left: 6%;
+    left: 2%;
 }
 .number4-6{
     position: relative;
-    left: 9%;
+    left: 4%;
 }
 .line2{
     height: 2px;
@@ -140,14 +133,7 @@ main{
     align-items: center;
     flex-direction: row;
 }
-.number2-7{
-    font-size: 20px;
-    width: 100px;
-    height: 40px;
-    align-items: center;
-    border-radius: 10px;
-    cursor: pointer;
-}
+
 .number2-8{
     font-size: 20px;
     width: 100px;
@@ -167,25 +153,25 @@ main{
 .number2-2{
     width: 138px;
     position: relative;
-    left: 4%;
+    left: 2%;
 }
 .number2-3{
     width: 170px;
     position: relative;
-    left: 3%;
+    left: 0%;
 }
 .number2-4{
     width: 135px;
     position: relative;
-    left: 4%;
+    left: 1%;
 }
 .number2-5{
     position: relative;
-    left: 5%;
+    left: 1%;
 }
 .number2-6{
     position: relative;
-    left: 8%;
+    left: 3%;
 }
 .line3{
     height: 2px;
@@ -203,14 +189,6 @@ main{
     margin-top: -20px;
     align-items: center;
     flex-direction: row;
-}
-.number3-7{
-    font-size: 20px;
-    width: 100px;
-    height: 40px;
-    align-items: center;
-    border-radius: 10px;
-    cursor: pointer;
 }
 .number3-8{
     font-size: 20px;
@@ -231,36 +209,37 @@ main{
 .number3-2{
     width: 89px;
     position: relative;
-    left: 4%;
+    left: 2%;
 }
 .number3-3{
     width: 170px;
     position: relative;
-    left: 5%;
+    left: 2%;
 }
 .number3-4{
     width: 143px;
     position: relative;
-    left: 4%;
+    left: 1%;
 }
 .number3-5{
     position: relative;
-    left: 6%;
+    left: 2%;
 }
 .number3-6{
     position: relative;
-    left: 9%;
+    left: 4%;
 }
 @media screen and (max-width: 1024px){ 
     nav ul{margin-left: 290px;
-        gap:90px;    
+        gap:60px;    
     }
     .all{
-    gap: 65px;
+    gap: 55px;
 }
 .number4-8{
     width: 80px;
     height: 50px;
+    
 }
 .number2-8{
     width:80px;
@@ -274,55 +253,67 @@ main{
     font-size: 23px;
     padding: 12px;
 }
+.number4-2{
+    left: 50px;
+}
+.number4-3{
+    left: 50px;
+}
 .number4-4{
-    left: 2px;
-}
-.number4-5{
-    left: -25px;
-}
-.number4-6{
     left: 10px;
 }
+.number4-5{
+    left: -10px;
+}
+.number4-6{
+    left: 30px;
+}
 .number4-8{
-   margin-right: 20px;
+   margin-right: 90px;
 }
 .number2-pai{
     font-size: 23px;
     padding: 12px;
 }
+.number2-2{
+    left: 50px;
+}
 .number2-3{
-    left:15px;
+    left:18px;
 }
 .number2-4{
-    left: -10px;
+    left: 10px;
 }
 .number2-5{
-    left: -45px;
+    left: -30px;
 }
 .number2-6{
-    left: -2px;
+    left: 15px;
 }
 .number2-8{
-    margin-right: 20px;
+    margin-right: 90px;
 }
 .number3-pai{
     font-size: 23px;
     padding: 12px;
 }
+.number3-2{
+    left: 60px;
+}
 .number3-3{
-    left: 46px;
+    left: 56px;
 }
 .number3-4{
-    left: -3px;
+    left: 10px;
 }
 .number3-5{
-    left: -25px;
+    left: -10px;
 }
 .number3-6{
-    left: 8px;
+    left: 28px;
 }
 .number3-8{
-    margin-right: 20px;
+    margin-right: 90px;
 }
 }
 @media screen and (max-width: 390px) {
@@ -434,11 +425,3 @@ main{
         margin-right: 0px;
     }
     }
-
-
-
-
-
-
-    
-
